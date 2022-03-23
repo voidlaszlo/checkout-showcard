@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Checkout</h1>
+    </header>
+    <main class="container">
+
+        <section id="address">
+            <h3 class="section-title">Address</h3>
+            <div class="address-body">
+                <p class="name">Max Mustermann</p>
+                <p class="street">Siemensstraße 92, Stiege 2, Top 19</p>
+                <p class="zip">3520</p>
+                <p class="state-country">Vienna, Austria</p>
+            </div>
+        </section>
+
+        <section id="payment-method">
+            <h3 class="section-title">Payment Method</h3>
+            <div class="method">
+                <div class="label">
+                    <img src="https://icons-for-free.com/iconfiles/png/512/payment+online+transaction+payment+method+visa+icon-1320186278106432321.png" alt="visa-payment">
+                    <label for="visa">Visa Payment</label>
+                </div>
+                <input type="radio" name="method" id="visa-payment" value="visa payment">
+            </div>
+            <div class="method">
+                <div class="label">
+                    <img src="https://www.designbust.com/download/1064/png/paypal_transparent_logo512.png" alt="paypal">
+                    <label for="paypal">PayPal</label>
+                </div>
+                <input type="radio" name="method" id="paypal" value="paypal">
+            </div>
+            <div class="method">
+                <div class="label">
+                    <img src="https://brandlogos.net/wp-content/uploads/2016/07/mastercard-vector-logo.png" alt="mastercard">
+                    <label for="mastercard">Mastercard</label>
+                </div>
+                <input type="radio" name="method" id="mastercard" value="mastercard">
+            </div>
+        </section>
+
+        <section id="shopping-bill">
+            <h3 class="section-title">Shopping Bill</h3>
+            <div class="entries">
+                <div class="entry">
+                    <p>Shopping fee</p>
+                    <p>$7.12</p>
+                </div>
+                <div class="entry">
+                    <p>Discount 20%</p>
+                    <p>$2.99</p>
+                </div>
+                <div class="entry">
+                    <p>Nike Air Max 90</p>
+                    <p>$75.99</p>
+                </div>
+                <div class="entry final-entry">
+                    <p>Total</p>
+                    <p>$82.89</p>
+                </div>
+            </div>
+        </section>
+        
+        <button id="buyBtn">Buy Now</button>
+
+    </main>
+
+</body>
+</html>

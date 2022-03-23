@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2em 1.75em;
+    font-family: Poppin, sans-serif;
+    max-width: 950px;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+header h1#title {
+    text-align: center;
+}
+
+/* SECTIONS */
+section {
+    margin: 2em 0;
+}
+
+section h3.section-title {
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+/* SECTION ADDRESS */
+section#address div.address-body {
+    padding: 1em;
+    color: white;
+    background-color: #fc8080;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25em;
+}
+
+/* SECTION PAYMENT METHOD */
+section#payment-method div.method {
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0.75em 0;
+    padding: 0.75em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section#payment-method div.method div.label {
+    display: flex;
+    align-items: center;
+    gap: 0.75em;
+}
+
+section#payment-method div.method div.label img {
+    height: 20px;
+}
+
+/* SECTION SHOPPING BILL */
+section#shopping-bill div.entries {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35em;
+}
+
+section#shopping-bill div.entries div.entry {
+    display: flex;
+    justify-content: space-between;
+    color: #d1d1d1;
+}
+
+section#shopping-bill div.entries div.final-entry {
+    color: black;
+    font-weight: 700;
+    border-top: 1px solid #d1d1d1;
+    padding-top: 0.35em;
+}
+
+button#buyBtn {
+    width: 100%;
+    padding: 1em 0.75em;
+    border-radius: 15px;
+    border: none;
+    background-color: #fc8080;
+    color: white;
+    font-weight: 700;
+}
